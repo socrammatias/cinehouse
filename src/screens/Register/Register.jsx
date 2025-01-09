@@ -12,6 +12,8 @@ const Register = () => {
   useEffect(() => {
     // Adiciona a classe ao body quando o componente é montado
     document.body.classList.add('register-page');
+    document.title = 'Cadastro'; // hook para alterar titulo da aba
+
 
     // Remove a classe do body quando o componente é desmontado
     return () => {
